@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(
+        90deg,
+        rgb(231, 228, 228) 0%,
+        rgb(255, 252, 252) 100%
+      );
+}
+.center {
+    display:flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+    min-height: 60px;
+    background: #fffdfd;
+	position: absolute;
+	left: 50%;
+	margin-left: -185px;
+	top: 50%;
+	margin-top: -255px;
+    font-size: 1.5em;
+}
+
